@@ -35,6 +35,10 @@ const Home = () => {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
+        if (!title || !description || !date || !priority || !status) {
+            alert("Please fill all the fields");
+            return;
+        }
         addTask(title, description, date, priority, status);
         dispatch(setTasksArr([...tasks, { title, description, date, priority, status }]));
         setTitle("");
