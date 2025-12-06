@@ -1,16 +1,80 @@
-# React + Vite
+# 📝 Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, stylish, and feature-rich Todo Application built with the latest web technologies. Manage your tasks efficiently with a beautiful user interface.
 
-Currently, two official plugins are available:
+![Project Banner](https://via.placeholder.com/1200x400?text=Todo+Application+Banner)
+*(Placeholder for actual screenshot)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+-   **🔐 Secure Authentication**: Robust login system to keep your tasks private.
+-   **📋 Smart Task Management**: Easily create, read, update, and delete tasks.
+-   **🏷️ Prioritization**: Set priority levels (Low, Medium, High) to stay organized.
+-   **✅ Status Tracking**: Separate views for pending "Todo" tasks and "Completed" tasks.
+-   **📅 Due Dates**: Keep track of deadlines with due date settings.
+-   **📱 Responsive Design**: Fully responsive interface that looks great on all devices.
+-   **🔔 Interactive Feedback**: Real-time notifications using React Hot Toast.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+This project harnesses the power of modern web development tools:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Frontend Framework**: [React](https://react.dev/) (v19)
+-   **Build Tool**: [Vite](https://vitejs.dev/) - Super fast build tool.
+-   **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) - Efficient state management.
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/) (v4) - Utility-first CSS framework.
+-   **Routing**: [React Router](https://reactrouter.com/) (v7) - Dynamic client-side routing.
+-   **HTTP Client**: [Axios](https://axios-http.com/) - Promise-based HTTP client.
+-   **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+-   **Notifications**: [React Hot Toast](https://react-hot-toast.com/)
+
+## 🚀 Getting Started
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/mohammedali64/Todo_frontend.git
+    cd todo-frontend
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser**
+    Visit `http://localhost:5173` (or the URL shown in your terminal) to see the app in action.
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/         # Static assets
+├── components/     # Reusable UI components (Home, Tasks, Login, etc.)
+├── hooks/          # Custom React hooks (useAuth, useTask)
+├── Route/          # Routing logic (ProtectedRoute, PublicRoute)
+├── slices/         # Redux slices (auth, task)
+├── App.jsx         # Main application component
+├── main.jsx        # Entry point
+└── store.js        # Redux store configuration
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+Designed with ❤️ by [Mohammed Ali](https://github.com/mohammedali64)
