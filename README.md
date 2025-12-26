@@ -2,8 +2,6 @@
 
 > A modern, stylish, and feature-rich Todo Application built with the latest web technologies. Manage your tasks efficiently with a beautiful user interface.
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Todo+Application+Banner)
-*(Placeholder for actual screenshot)*
 
 ## ✨ Features
 
@@ -70,6 +68,16 @@ src/
 ├── main.jsx        # Entry point
 └── store.js        # Redux store configuration
 ```
+
+## Screenshots
+<img width="1365" height="767" alt="Screenshot 2025-12-16 195914" src="https://github.com/user-attachments/assets/cfa060f2-2e80-4265-840e-8f90048fe9f3" />
+
+<img width="1365" height="577" alt="Screenshot 2025-12-16 195954" src="https://github.com/user-attachments/assets/754ca36c-c64f-4091-97bb-255905efa528" />
+
+<img width="1357" height="747" alt="Screenshot 2025-12-16 200014" src="https://github.com/user-attachments/assets/7653f9ad-93ba-465b-9bc1-3d444b18887b" />
+
+```
+
 
 ## 🤝 Contributing
 
