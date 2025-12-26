@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux"
+import { logout } from "../slices/auth";
 
 const useTask = () => {
     const dispatch = useDispatch();
@@ -26,6 +27,8 @@ const useTask = () => {
             console.log(data);
         } catch (error) {
             console.log(error);
+            alert(error.response.data.message);
+            dispatch(logout());
         }
     }
 
@@ -41,7 +44,10 @@ const useTask = () => {
             console.log(data);
             return data;
         } catch (error) {
-            console.log(error);
+            console.log(error.response.data.message);
+            alert(error.response.data.message);
+            dispatch(logout());
+
         }
     }
 
@@ -67,6 +73,8 @@ const useTask = () => {
             console.log(data);
         } catch (error) {
             console.log(error);
+            alert(error.response.data.message);
+            dispatch(logout());
         }
     }
 
@@ -82,6 +90,8 @@ const useTask = () => {
             console.log(data);
         } catch (error) {
             console.log(error);
+            alert(error.response.data.message);
+            dispatch(logout());
         }
     }
     return {

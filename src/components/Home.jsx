@@ -31,7 +31,6 @@ const Home = () => {
 
     const handleLogout = () => {
         dispatch(logout());
-        navigate("/auth");
     }
     const handleSubmit = (e) => {
         e.preventDefault();

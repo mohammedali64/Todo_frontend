@@ -4,7 +4,7 @@ import { Navigate } from "react-router-dom";
 const ProtectedRoute = ({ children }) => {
     const token = useSelector((state) => state.auth.token);
     if (!token) {
-        return <Navigate to="/auth" replace />;
+        return <Navigate to="/auth" />;
     }
 
     return children;

@@ -16,7 +16,6 @@ const useAuth = () => {
                 password
             })
             const data = response.data;
-            console.log(data);
             dispatch(loginSuccess({
                 user: data.name,
                 token: data.token,
